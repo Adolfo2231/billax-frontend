@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "services": {
+        "web": {
+            "command": "npm start",
+            "port": 3000,
+            "env": {
+                "REACT_APP_API_BASE_URL": "https://billax.holbie.dev.pr"
+            }
+        }
+    }
+} 
